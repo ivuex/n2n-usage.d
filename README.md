@@ -1,10 +1,15 @@
 # n2n-usage
+
 ## usage
++ if on debian/ubuntu:
+  - apt install n2n -y;
++ if on redhat/centos:
+  - yum install n2n -y;
 - git clone ${thisRepo} ;
 - cd this ${thisRepo};
 + if on server(supernode):
   - bash vps-n2n-supernode.sh
-+ if on client(suppernode);
++ if on client(suppernode):
   - bash vps-n2n-edge.sh
 
 ## some other words:
